@@ -1,0 +1,11 @@
+#simple-table th strong{
+	background-color: #337ab7;
+	    display: inline-block;
+    padding: 10px 16px;
+   
+}
+#simple-table th a{
+	    display: inline-block;
+    padding: 10px 16px;
+    
+}
