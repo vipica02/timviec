@@ -136,7 +136,7 @@
 			<b class="arrow"></b>
 			<ul class="submenu">
 				<li class="">
-					<a href="<?php echo admin_url('job/add') ?>">
+					<a href="<?php echo admin_url('admin/add') ?>">
 						<i class="menu-icon fa fa-caret-right"></i>
 						Add user
 					</a>

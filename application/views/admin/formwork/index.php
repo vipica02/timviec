@@ -1,13 +1,11 @@
 
 <div class="page-content">
-	<?php $this->load->view('admin/admin/caidat.php'); ?>
-
 	<div class="page-header">
 		<h1>
 			Quản trị viên
 			<small>
 				<i class="ace-icon fa fa-angle-double-right"></i>
-				 Danh sách
+				 Add Hình thức công việc
 
 			</small>
 			
@@ -63,9 +61,6 @@
 			<div class="col-xs-12 col-sm-8">
 				<div class="row">
 					<div class="col-xs-12">
-						<div class="clearfix">
-							<div class="pull-right tableTools-container"></div>
-						</div>
 						<div class="table-header">
 							Danh sách
 						</div>
@@ -78,10 +73,7 @@
 								<thead>
 									<tr>
 										<th class="center">
-											<label class="pos-rel">
-												<input type="checkbox" class="ace" />
-												<span class="lbl"></span>
-											</label>
+											No.
 										</th>
 										<th>ID</th>
 										<th>Tiền lương</th>
@@ -99,13 +91,10 @@
 							
 									<tbody>
 								<?php if(!empty($list)){
-									foreach ($list as  $value) {?>
-									<tr>
-										<td class="center">
-											<label class="pos-rel">
-												<input type="checkbox" class="ace" />
-												<span class="lbl"></span>
-											</label>
+                                    foreach ($list as $key =>  $value) {?>
+                                        <tr>
+                                            <td class="center">
+                                                <?php echo $key +1; ?>
 										</td>
 
 										<td><?php echo $value->id; ?></td>
@@ -119,7 +108,7 @@
 											<div class="hidden-sm hidden-xs action-buttons">
 												
 
-												<a class="green" href="<?php echo admin_url('formwork/edit/'.$value->id); ?>" onclick="return confirmAction();">
+												<a class="green" href="<?php echo admin_url('formwork/edit/'.$value->id); ?>">
 													<i class="ace-icon fa fa-pencil bigger-130"></i>
 												</a>
 
@@ -181,9 +170,6 @@
 <SCRIPT LANGUAGE="JavaScript">
       function confirmAction() {
         return confirm("Bạn có chắc muốn xóa không?")
-      }
-      function confirmedit(){
-      	 return confirm("Bạn có chắc muốn sửa không?")
       }
  
 </SCRIPT>

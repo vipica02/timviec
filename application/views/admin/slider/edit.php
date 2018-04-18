@@ -1,6 +1,5 @@
 
 <div class="page-content">
-<?php $this->load->view('admin/admin/caidat') ?>
 	<div class="page-header">
 		<h1>
 			Quản trị viên

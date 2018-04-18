@@ -1,7 +1,5 @@
 
 <div class="page-content">
-	<?php $this->load->view('admin/admin/caidat.php'); ?>
-
 	<div class="page-header">
 		<h1>
 			Quản trị viên
@@ -76,7 +74,7 @@
 									
 								<td>
 									<div class="hidden-sm hidden-xs btn-group">
-										<a href="<?php echo admin_url('slider/edit/'.$value->id); ?>"  onclick=" return confirmedit()">	
+										<a href="<?php echo admin_url('slider/edit/'.$value->id); ?>">
 											<button id="id-btn-dialog2" class="btn btn-xs btn-info" >
 												<i class="ace-icon fa fa-pencil bigger-120"></i>
 											</button>
@@ -207,9 +205,6 @@
 <SCRIPT LANGUAGE="JavaScript">
       function confirmAction() {
         return confirm("Bạn có chắc muốn xóa không?")
-      }
-      function confirmedit(){
-      	 return confirm("Bạn có chắc muốn sửa không?")
       }
  
 </SCRIPT>
