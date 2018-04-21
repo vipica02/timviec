@@ -32,13 +32,7 @@
                     <div class="widget">
                         <h3 >Miền Bắc</h3>
                         <ul>
-                            <li><a href="#">Trần Văn Sang: 0984407771</a></li>
-                            <li><a href="#">Trần Văn Sang: 0984407771</a></li>
-                            <li><a href="#">Trần Văn Sang: 0984407771</a></li>
-                            <li><a href="#">Trần Văn Sang: 0984407771</a></li>
-                            <li><a href="#">Trần Văn Sang: 0984407771</a></li>
-                            <li><a href="#">Trần Văn Sang: 0984407771</a></li>
-                            <li><a href="#">Trần Văn Sang: 0984407771</a></li>
+                            <li><a href="#">Bùi Trung Đức: 01626661260</a></li>
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->
@@ -47,13 +41,8 @@
                     <div class="widget">
                         <h3>Miền Trung</h3>
                         <ul>
-                            <li><a href="#">Trần Văn Sang: 0984407771</a></li>
-                            <li><a href="#">Trần Văn Sang: 0984407771</a></li>
-                            <li><a href="#">Trần Văn Sang: 0984407771</a></li>
-                            <li><a href="#">Trần Văn Sang: 0984407771</a></li>
-                            <li><a href="#">Trần Văn Sang: 0984407771</a></li>
-                            <li><a href="#">Trần Văn Sang: 0984407771</a></li>
-                            <li><a href="#">Trần Văn Sang: 0984407771</a></li>
+                            <li><a href="#">Bùi Trung Đức: 01626661260</a></li>
+
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->
@@ -62,13 +51,8 @@
                     <div class="widget">
                         <h3 >Miền Nam</h3>
                         <ul>
-                            <li><a href="#">Trần Văn Sang: 0984407771</a></li>
-                            <li><a href="#">Trần Văn Sang: 0984407771</a></li>
-                            <li><a href="#">Trần Văn Sang: 0984407771</a></li>
-                            <li><a href="#">Trần Văn Sang: 0984407771</a></li>
-                            <li><a href="#">Trần Văn Sang: 0984407771</a></li>
-                            <li><a href="#">Trần Văn Sang: 0984407771</a></li>
-                            <li><a href="#">Trần Văn Sang: 0984407771</a></li>
+                            <li><a href="#">Bùi Trung Đức: 01626661260</a></li>
+
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->
@@ -80,7 +64,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    &copy; 2017 <a target="_blank" href="#" title="sangtrank64@gmail.com">Sangtran</a>. Email : sangtrank64@gmail.com
+                    &copy; 2018 <a target="_blank" href="#" title="duccesc@gmail.com">Đức Bùi</a>. Email : duccesc@gmail.com
                 </div>
                 <div class="col-sm-6">
                     <ul class="pull-right">

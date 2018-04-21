@@ -64,6 +64,16 @@
                             </ul>
                         </li>
                         <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Công ty hàng đầu<i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <?php foreach ($list_company as $value) {?>
+                                    <li><a href="<?php echo base_url('jop/company/'.$value->id); ?>"><?php echo $value->name; ?></a></li>
+                                    <?php
+                                } ?>
+
+                            </ul>
+                        </li>
+                        <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bài viết <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
                             <?php  foreach ($list_category as $value) {?>
