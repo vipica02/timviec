@@ -1,8 +1,6 @@
 <!-- head -->
 <?php $this->load->view('nguoitimviec/head',$this->data) ?>
 <div class="page-content">
-	<?php $this->load->view('nguoitimviec/caidat.php'); ?>
-
 	<div class="page-header">
 		<h1>
 			Người tìm việc
@@ -85,7 +83,7 @@
 								
 									<td>
 										<div class="hidden-sm hidden-xs action-buttons">
-											<a class="green"  onclick="return confirmedit()" href="<?php echo nguoitimviec_url('user_jobseeker/submit/'.$value->id); ?>">
+											<a class="green" href="<?php echo nguoitimviec_url('user_jobseeker/submit/'.$value->id); ?>">
 												<i class="ace-icon fa fa-pencil bigger-130"></i>
 											</a>
 										</div>
@@ -106,7 +104,7 @@
 													</li>
 
 													<li>
-														<a onclick="return confirmedit()" href="<?php echo nguoitimviec_url('user_jobseeker/submit/'.$value->id); ?>" class="tooltip-success" data-rel="tooltip" title="Nộp hồ sơ">
+														<a href="<?php echo nguoitimviec_url('user_jobseeker/submit/'.$value->id); ?>" class="tooltip-success" data-rel="tooltip" title="Nộp hồ sơ">
 															<span class="green">
 																<i class="ace-icon fa fa-pencil-square-o bigger-120"></i>
 															</span>
@@ -140,16 +138,6 @@
 		</div><!-- /.col -->
 	</div><!-- /.row -->
 </div><!-- /.page-content -->
-
-<SCRIPT LANGUAGE="JavaScript">
-      function confirmAction() {
-        return confirm("Bạn có chắc muốn xóa không?")
-      }
-      function confirmedit(){
-      	 return confirm("Bạn có chắc muốn sửa không?")
-      }
- 
-</SCRIPT>
 <script src="<?php echo public_url() ?>/backend/assets/js/jquery-2.1.4.min.js"></script>
 <script src="<?php echo public_url() ?>/backend/assets/js/jquery.dataTables.min.js"></script>
 <script src="<?php echo public_url() ?>/backend/assets/js/jquery.dataTables.bootstrap.min.js"></script>

@@ -1,7 +1,6 @@
 <!-- head -->
 <?php $this->load->view('nguoitimviec/head',$this->data) ?>
 <div class="page-content">
-	<?php $this->load->view('nguoitimviec/caidat.php'); ?>
 
 	<div class="page-header">
 		<h1>
@@ -98,12 +97,3 @@
 	</div>
 </div><!-- /.page-content -->
 
-<SCRIPT LANGUAGE="JavaScript">
-      function confirmAction() {
-        return confirm("Bạn có chắc muốn xóa không?")
-      }
-      function confirmedit(){
-      	 return confirm("Bạn có chắc muốn sửa không?")
-      }
- 
-</SCRIPT>

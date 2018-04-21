@@ -29,7 +29,12 @@
 						<table id="dynamic-table" class="table table-striped table-bordered table-hover">
 							<thead>
 								<tr>
-									<th class="center">No.</th>
+                                    <td class="center">
+                                        <label class="pos-rel">
+                                            <input type="checkbox" class="ace" />
+                                            <span class="lbl"></span>
+                                        </label>
+                                    </td>
 									<th>Tiêu đề</th>
 									<th>Người đăng</th>
 									<th class="hidden-480">Ngày đăng</th>
@@ -47,9 +52,12 @@
 								$i=0;
 								foreach ($list as  $value) {$i++;?>
 								<tr>
-									<td class="center">
-                                        <?php  echo $i;?>
-									</td>
+                                    <td class="center">
+                                        <label class="pos-rel">
+                                            <input type="checkbox" class="ace" />
+                                            <span class="lbl"></span>
+                                        </label>
+                                    </td>
 									<td>
 										<a href="<?php echo base_url('post/read/'.$value->id); ?>"><?php echo $value->sNewsTitle; ?></a>
 									</td>

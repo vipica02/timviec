@@ -1,7 +1,6 @@
 
 <?php $this->load->view('nhatuyendung/nhatuyendung/head',$this->data) ?>
 <div class="page-content">
-<?php $this->load->view('nhatuyendung/caidat') ?>
 	<div class="page-header">
 		<h1>
 		Nhà tuyển dụng
@@ -181,9 +180,8 @@
 									<label for="form-field-select-3" class="control-label bolder blue">Quy mô <span class="red"><?php echo form_error('sscale'); ?></span></label>
 
 									<br />
-									<select class="chosen-select form-control" id="form-field-select-3" name="sscale" data-placeholder="<?php echo $info2->sScale_Name; ?>">
-										<option value="<?php echo $info2->id; ?>"></option>
-										<?php 
+									<select class="chosen-select form-control" id="form-field-select-3" name="sscale">
+										<?php
 										foreach ($list1 as  $value) {?>
 										<option value="<?php echo $value->id; ?>"><?php echo $value->sScale_Name; ?></option>
 										<?php

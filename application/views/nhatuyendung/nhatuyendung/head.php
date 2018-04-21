@@ -2,10 +2,10 @@
 	<ul class="breadcrumb">
 		<li>
 			<i class="ace-icon fa fa-home home-icon"></i>
-			<a href="#">Quảng cáo</a>
+			<a href="#">Dashboash </a>
 		</li>
 
-		
+
 	</ul><!-- /.breadcrumb -->
 
 </div>

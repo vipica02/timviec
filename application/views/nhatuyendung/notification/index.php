@@ -1,8 +1,6 @@
 <!-- head -->
 <?php $this->load->view('nhatuyendung/nhatuyendung/head'); ?>
 <div class="page-content">
-	<?php $this->load->view('nhatuyendung/nhatuyendung/caidat.php'); ?>
-
 	<div class="page-header">
 		<h1>
 			Nhà tuyển dụng

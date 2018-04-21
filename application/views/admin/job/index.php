@@ -30,9 +30,12 @@
 							<table id="dynamic-table" class="table table-striped table-bordered table-hover">
 								<thead>
 									<tr>
-										<th class="center">
-											No.
-										</th>
+                                        <th class="center">
+                                            <label class="pos-rel">
+                                                <input type="checkbox" class="ace" />
+                                                <span class="lbl"></span>
+                                            </label>
+                                        </th>
 										<th>Họ tên</th>
 										<th>Email</th>
 										<th><i class="ace-icon fa fa-clock-o bigger-110 hidden-480"></i>Ngày sinh</th>
@@ -48,12 +51,14 @@
 							
 									<tbody>
 								<?php if(!empty($list)){
-									foreach ($list as $key => $value) {?>
+									foreach ($list as $value) {?>
 									<tr>
-										<td class="center">
-                                            <?php echo $key +1; ?>
-										</td>
-
+                                        <td class="center">
+                                            <label class="pos-rel">
+                                                <input type="checkbox" class="ace" />
+                                                <span class="lbl"></span>
+                                            </label>
+                                        </td>
 										<td><?php echo $value->sUserName; ?></td>
 										<td><?php echo $value->sEmail; ?></td>
 										<td class="hidden-480"><?php echo $value->dBirthday; ?></td>

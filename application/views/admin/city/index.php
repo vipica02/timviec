@@ -70,9 +70,12 @@
 							<table id="dynamic-table" class="table table-striped table-bordered table-hover">
 								<thead>
 									<tr>
-										<th class="center">
-											No.
-										</th>
+                                        <th class="center">
+                                            <label class="pos-rel">
+                                                <input type="checkbox" class="ace" />
+                                                <span class="lbl"></span>
+                                            </label>
+                                        </th>
 										<th>ID</th>
 										<th>Tên thành phố</th>
 
@@ -89,11 +92,14 @@
 							
 									<tbody>
 									<?php if(!empty($list)){
-								foreach ($list as $key =>  $value) {?>
+								foreach ($list as $value) {?>
 									<tr>
-										<td class="center">
-                                            <?php echo $key +1; ?>
-										</td>
+                                        <td class="center">
+                                            <label class="pos-rel">
+                                                <input type="checkbox" class="ace" />
+                                                <span class="lbl"></span>
+                                            </label>
+                                        </td>
 
 										<td><?php echo $value->id; ?></td>
 										<td><?php echo $value->sCityName; ?></td>

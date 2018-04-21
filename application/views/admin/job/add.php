@@ -6,7 +6,7 @@
 			Quản trị viên
 			<small>
 				<i class="ace-icon fa fa-angle-double-right"></i>
-				Thêm User
+				Thêm Người tìm việc
 			</small>
 			
 		</h1>

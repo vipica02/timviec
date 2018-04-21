@@ -1,7 +1,6 @@
 
 <?php $this->load->view('nguoitimviec/head',$this->data) ?>
 <div class="page-content">
-<?php $this->load->view('nguoitimviec/caidat') ?>
 	<div class="page-header">
 		<h1>
 		Người tìm việc

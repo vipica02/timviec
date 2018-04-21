@@ -30,9 +30,12 @@
 						<table id="dynamic-table" class="table table-striped table-bordered table-hover">
 							<thead>
 								<tr>
-									<th class="center">
-										No.
-									</th>
+                                    <th class="center">
+                                        <label class="pos-rel">
+                                            <input type="checkbox" class="ace" />
+                                            <span class="lbl"></span>
+                                        </label>
+                                    </th>
 									<th>Tên công ty</th>
 									
 									<th>Email</th>
@@ -54,11 +57,14 @@
 
 							<tbody>
 							<?php if(!empty($list)){
-								foreach ($list as $key =>  $value ) {?>
+								foreach ($list as $value ) {?>
 								<tr>
-									<td class="center">
-                                        <?php echo $key+1; ?>
-									</td>
+                                    <td class="center">
+                                        <label class="pos-rel">
+                                            <input type="checkbox" class="ace" />
+                                            <span class="lbl"></span>
+                                        </label>
+                                    </td>
 
 									<td>
 										<a href="<?php echo admin_url('employer/detail/'.$value->id); ?>"><?php echo $value->sComName; ?></a>

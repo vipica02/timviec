@@ -1,7 +1,6 @@
 
 <?php $this->load->view('nhatuyendung/head',$this->data) ?>
 <div class="page-content">
-<?php $this->load->view('nhatuyendung/caidat') ?>
 	<div class="page-header">
 		<h1>
 			Người tìm việc
@@ -195,7 +194,7 @@
 								<label for="form-field-select-3" class="control-label bolder blue">Tỉnh/ Thành phố <span class="red"><?php echo form_error('scity'); ?></span></label>
 
 								<br />
-								<select class="chosen-select form-control" id="form-field-select-3"  name="scity" data-placeholder="<?php if(!$info){echo 'không tồn tại';}else{echo $info->sCityName;}  ?>">
+								<select class="chosen-select form-control" id="form-field-select-3"  name="scity" data-placeholder="<?php if(!$info){echo 'Chưa add thành phố';}else{echo $info->sCityName;}  ?>">
 									<option value="<?php echo $jobseeker_info->iCityID; ?>"></option>
 									<?php 
 										foreach ($list as  $value) {?>

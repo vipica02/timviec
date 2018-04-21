@@ -1,8 +1,6 @@
 <!-- head -->
 <?php $this->load->view('nguoitimviec/head',$this->data) ?>
 <div class="page-content">
-	<?php $this->load->view('nguoitimviec/caidat.php'); ?>
-
 	<div class="page-header">
 		<h1>
 			Người tìm việc
@@ -21,11 +19,6 @@
 			<!-- PAGE CONTENT BEGINS -->
 			<div class="row">
 				<div class="col-xs-12">
-				
-
-					<div class="clearfix">
-						<div class="pull-right tableTools-container"></div>
-					</div>
 					<div class="table-header">
 						Danh sách bài viết
  					</div>

@@ -102,9 +102,12 @@
 							<table id="dynamic-table" class="table table-striped table-bordered table-hover">
 								<thead>
 									<tr>
-										<th class="center">
-											No.
-										</th>
+                                        <th class="center">
+                                            <label class="pos-rel">
+                                                <input type="checkbox" class="ace" />
+                                                <span class="lbl"></span>
+                                            </label>
+                                        </th>
 										<th>ID</th>
 										<th>Name</th>
 										<th>số lượng bài viết</th>
@@ -117,9 +120,12 @@
 									$i=0;
 									foreach ($list as  $value) {$i++;?>
 									<tr>
-										<td class="center">
-                                            <?php echo $i; ?>
-										</td>
+                                        <td class="center">
+                                            <label class="pos-rel">
+                                                <input type="checkbox" class="ace" />
+                                                <span class="lbl"></span>
+                                            </label>
+                                        </td>
 
 										<td><?php echo $value->id; ?></td>
 										<td><?php echo $value->sNewsCategory; ?></td>

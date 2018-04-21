@@ -1,8 +1,6 @@
 <!-- head -->
 <?php $this->load->view('nhatuyendung/nhatuyendung/head',$this->data) ?>
 <div class="page-content">
-	<?php $this->load->view('nhatuyendung/nhatuyendung/caidat.php'); ?>
-
 	<div class="page-header">
 		<h1>
 			Quản trị viên

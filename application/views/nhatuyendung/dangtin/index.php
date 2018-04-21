@@ -1,8 +1,6 @@
 <!-- head -->
 <?php $this->load->view('nhatuyendung/nhatuyendung/head'); ?>
 <div class="page-content">
-	<?php $this->load->view('nhatuyendung/nhatuyendung/caidat.php'); ?>
-
 	<div class="page-header">
 		<h1>
 			Nhà tuyển dụng
@@ -21,11 +19,6 @@
 			<!-- PAGE CONTENT BEGINS -->
 			<div class="row">
 				<div class="col-xs-12">
-				
-
-					<div class="clearfix">
-						<div class="pull-right tableTools-container"></div>
-					</div>
 					<div class="table-header">
 						Danh sách tin tuyển dụng
  					</div>
@@ -85,7 +78,7 @@
 									<td><?php  if($value->iCurrent==0){echo 'Ẩn tin';}else if($value->iCurrent==1){echo 'Hiển thị';} ?></td>
 									<td>
 										<div class="hidden-sm hidden-xs action-buttons">
-											<a class="green" onclick="return confirmedit();" href="<?php echo nhatuyendung_url('trustworthy/edit/'. $value->id); ?>">
+											<a class="green" href="<?php echo nhatuyendung_url('trustworthy/edit/'. $value->id); ?>">
 												<i class="ace-icon fa fa-pencil bigger-130"></i>
 											</a>
 
@@ -155,9 +148,6 @@
 <SCRIPT LANGUAGE="JavaScript">
       function confirmAction() {
         return confirm("Bạn có chắc muốn xóa không?")
-      }
-      function confirmedit(){
-      	 return confirm("Bạn có chắc muốn sửa không?")
       }
  
 </SCRIPT>

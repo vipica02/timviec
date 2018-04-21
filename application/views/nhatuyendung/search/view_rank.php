@@ -1,7 +1,6 @@
 <!-- head -->
 <?php $this->load->view('nhatuyendung/head',$this->data) ?>
 <div class="page-content">
-	<?php $this->load->view('nhatuyendung/caidat.php'); ?>
 
 	<div class="page-header">
 		<h1>
@@ -21,11 +20,6 @@
 			<!-- PAGE CONTENT BEGINS -->
 			<div class="row">
 				<div class="col-xs-12">
-				
-
-					<div class="clearfix">
-						<div class="pull-right tableTools-container"></div>
-					</div>
 					<div class="table-header">
 						Danh sách bài viết
  					</div>
@@ -140,16 +134,6 @@
 		</div><!-- /.col -->
 	</div><!-- /.row -->
 </div><!-- /.page-content -->
-
-<SCRIPT LANGUAGE="JavaScript">
-      function confirmAction() {
-        return confirm("Bạn có chắc muốn xóa không?")
-      }
-      function confirmedit(){
-      	 return confirm("Bạn có chắc muốn sửa không?")
-      }
- 
-</SCRIPT>
 <script src="<?php echo public_url() ?>/backend/assets/js/jquery-2.1.4.min.js"></script>
 <script src="<?php echo public_url() ?>/backend/assets/js/jquery.dataTables.min.js"></script>
 <script src="<?php echo public_url() ?>/backend/assets/js/jquery.dataTables.bootstrap.min.js"></script>

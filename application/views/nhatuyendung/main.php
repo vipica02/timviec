@@ -24,6 +24,7 @@
 				<div class="main-content-inner">
 					
 					<?php $this->load->view($template,$this->data) ?>
+					<?php var_dump($template) ?>
 				</div>
 			</div><!-- /.main-content -->
 
