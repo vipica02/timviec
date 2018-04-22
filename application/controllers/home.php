@@ -50,7 +50,7 @@ class Home extends MY_Controller
 		$list_exp = $this->experience_model->get_list($input_exp);
 		
 		///danh sách công việc
-		foreach ($list_exp as $value) {
+            foreach ($list_exp as $value) {
 			$input_cere = array();
 			$input_cere['where']= array('iExperienceID'=>$value->id);
 			$list_cere = $this->trustworthy_model->get_list($input_cere);	

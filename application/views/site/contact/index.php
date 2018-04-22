@@ -18,18 +18,18 @@
                         <li class="col-sm-6">
                             <address>
                             <h5>Địa chỉ</h5>
-                            <p>Trần văn sang<br>
-                            Đội 4 - Thôn Hàm Phu - Xã Chính Tâm - Huyện Kim Sơn - Ninh Bình </p>
-                            <p>Phone:0984407771 <br>
-                            Email: sangtrank64@gmail.com</p>
+                            <p>Bùi Trung Đức<br>
+                            Mễ Trì- Từ Liêm - Hà Nội </p>
+                            <p>Phone:01626661260 <br>
+                            Email: duccesc@gmail.com</p>
                             </address>
 
                             <address>
-                            <h5>Địa chỉ</h5>
-                            <p>Trần văn sang<br>
-                            Đội 4 - Thôn Hàm Phu - Xã Chính Tâm - Huyện Kim Sơn - Ninh Bình </p>
-                            <p>Phone:0984407771 <br>
-                            Email: sangtrank64@gmail.com</p>
+                                <h5>Địa chỉ</h5>
+                                <p>Bùi Trung Đức<br>
+                                    Mễ Trì- Từ Liêm - Hà Nội </p>
+                                <p>Phone:01626661260 <br>
+                                    Email: duccesc@gmail.com</p>
                             </address>
 
                         </li>
@@ -37,19 +37,19 @@
 
                         <li class="col-sm-6">
                             <address>
-                            <h5>Địa chỉ</h5>
-                            <p>Trần văn sang<br>
-                            Đội 4 - Thôn Hàm Phu - Xã Chính Tâm - Huyện Kim Sơn - Ninh Bình </p>
-                            <p>Phone:0984407771 <br>
-                            Email: sangtrank64@gmail.com</p>
+                                <h5>Địa chỉ</h5>
+                                <p>Đào Dương Tuyên<br>
+                                    Mễ Trì- Từ Liêm - Hà Nội </p>
+                                <p>Phone:01625661880 <br>
+                                    Email: tuyendt@gmail.com</p>
                             </address>
 
                             <address>
-                            <h5>Địa chỉ</h5>
-                            <p>Trần văn sang<br>
-                            Đội 4 - Thôn Hàm Phu - Xã Chính Tâm - Huyện Kim Sơn - Ninh Bình </p>
-                            <p>Phone:0984407771 <br>
-                            Email: sangtrank64@gmail.com</p>
+                                <h5>Địa chỉ</h5>
+                                <p>Bùi Hồng Hạnh<br>
+                                    25 Trần Bình - Cầu Giấy </p>
+                                <p>Phone:0985687742 <br>
+                                    Email: hanhbh@gmail.com</p>
                             </address>
                         </li>
                     </ul>

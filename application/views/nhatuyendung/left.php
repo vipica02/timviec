@@ -135,27 +135,27 @@
 			</ul>
 		</li>
 
-		<li class="">
-			<a href="#" class="dropdown-toggle">
-				<i class="menu-icon fa  fa-pencil-square-o"></i>
-				<span class="menu-text"> Giấy phép kinh doanh </span>
-
-				<b class="arrow fa fa-angle-down"></b>
-			</a>
-
-			<b class="arrow"></b>
-
-			<ul class="submenu">
-				<li class="">
-					<a href="<?php echo nhatuyendung_url('upload'); ?>">
-						<i class="menu-icon fa fa-caret-right"></i>
-						Gửi giấy phép
-					</a>
-
-					<b class="arrow"></b>
-				</li>
-			</ul>
-		</li>
+<!--		<li class="">-->
+<!--			<a href="#" class="dropdown-toggle">-->
+<!--				<i class="menu-icon fa  fa-pencil-square-o"></i>-->
+<!--				<span class="menu-text"> Giấy phép kinh doanh </span>-->
+<!---->
+<!--				<b class="arrow fa fa-angle-down"></b>-->
+<!--			</a>-->
+<!---->
+<!--			<b class="arrow"></b>-->
+<!---->
+<!--			<ul class="submenu">-->
+<!--				<li class="">-->
+<!--					<a href="--><?php //echo nhatuyendung_url('upload'); ?><!--">-->
+<!--						<i class="menu-icon fa fa-caret-right"></i>-->
+<!--						Gửi giấy phép-->
+<!--					</a>-->
+<!---->
+<!--					<b class="arrow"></b>-->
+<!--				</li>-->
+<!--			</ul>-->
+<!--		</li>-->
 
 		<li class="">
 			<a href="#" class="dropdown-toggle">
