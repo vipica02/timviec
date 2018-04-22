@@ -8,8 +8,7 @@
             <div class="row">
                 <div class="col-sm-5 text-center">
                     <div class="gmap">
-                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Chính+Tâm,+Ninh+Bình+Province,+Vietnam&amp;aq=0&amp;oq=joomshaper&amp;sll=20.131699,106.1264919,14&amp;sspn=20.131699,106.1264919,14&amp;ie=UTF8&amp;hq=Chính+Tâm,&amp;hnear=+Ninh+Bình+Province,+Vietnam&amp;ll=20.131699,106.1264919,14&amp;spn=20.131699,106.1264919,14&amp;t=m&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
-
+                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.4355468594044!2d105.77682841430789!3d21.01525179361664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454aadf331823%3A0xbba7768e5a44cd30!2zTeG7hSBUcsOsLCBU4burIExpw6ptLCBIw6AgTuG7mWksIFZpZXRuYW0!5e0!3m2!1sen!2sus!4v1524416312297"></iframe>
                     </div>
                 </div>
 
