@@ -2,7 +2,7 @@
 <div id="navbar" class="navbar navbar-default ace-save-state">
 	<div class="navbar-container ace-save-state" id="navbar-container">
 		<div class="navbar-header pull-left">
-			<a href="index.html" class="navbar-brand">
+			<a href="<?php echo nhatuyendung_url('home'); ?>" class="navbar-brand">
 				<small>
                     Nhà tuyển dụng
 				</small>
@@ -57,10 +57,6 @@
 
 				<li class="light-blue dropdown-modal">
 					<a data-toggle="dropdown" href="#" class="dropdown-toggle">
-					<?php if($employer_info){?>
-						<img class="nav-user-photo" src="<?php if($employer_info->sLogo==''){ echo base_url('template/backend/assets/images/avatars/profile-pic.jpg');} else{ echo base_url('uploads/employer/'.$employer_info->sLogo);}   ?>" alt="Jason's Photo" />
-					<?php
-					} ?>
 						
 						<span class="user-info">
 						<?php if($employer_info){?>
