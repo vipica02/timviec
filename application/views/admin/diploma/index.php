@@ -5,7 +5,7 @@
 			Quản trị viên
 			<small>
 				<i class="ace-icon fa fa-angle-double-right"></i>
-				 Danh sách
+				 Bằng cấp
 
 			</small>
 			
@@ -62,7 +62,7 @@
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="table-header">
-							Danh sách
+							Danh sách bằng cấp
 						</div>
 
 						<!-- div.table-responsive -->

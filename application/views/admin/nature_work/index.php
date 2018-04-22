@@ -6,7 +6,7 @@
 			Quản trị viên
 			<small>
 				<i class="ace-icon fa fa-angle-double-right"></i>
-				 Add Tính chất công việc
+				Tính chất công việc
 
 			</small>
 			
@@ -63,7 +63,7 @@
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="table-header">
-							Danh sách
+							Danh sách tính chất công việc
 						</div>
 
 						<!-- div.table-responsive -->

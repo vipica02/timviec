@@ -60,7 +60,7 @@
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="table-header">
-							Danh sách
+							Danh sách thành phố
 						</div>
 
 						<!-- div.table-responsive -->

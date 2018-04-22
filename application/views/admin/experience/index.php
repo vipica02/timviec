@@ -6,7 +6,7 @@
 			Quản trị viên
 			<small>
 				<i class="ace-icon fa fa-angle-double-right"></i>
-				 Danh sách
+				 Kinh nghiệm
 
 			</small>
 			
@@ -63,7 +63,7 @@
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="table-header">
-							Add kinh nghiệm
+							Danh sách kinh nghiệm
 						</div>
 
 						<!-- div.table-responsive -->

@@ -79,7 +79,7 @@
 
 								<td>
 									<div class="hidden-sm hidden-xs btn-group">
-										<a href="<?php echo admin_url('employer/edit/'.$value->id); ?>"  onclick=" return confirmedit()">	
+										<a href="<?php echo admin_url('employer/edit/'.$value->id); ?>" >
 											<button id="id-btn-dialog2" class="btn btn-xs btn-info" >
 												<i class="ace-icon fa fa-pencil bigger-120"></i>
 											</button>
@@ -259,10 +259,6 @@
       function confirmAction() {
         return confirm("Bạn có chắc muốn xóa không?")
       }
-      function confirmedit(){
-      	 return confirm("Bạn có chắc muốn sửa không?")
-      }
- 
 </SCRIPT>
 <script src="<?php echo public_url() ?>/backend/assets/js/jquery-2.1.4.min.js"></script>
 <script src="<?php echo public_url() ?>/backend/assets/js/jquery.dataTables.min.js"></script>

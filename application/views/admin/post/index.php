@@ -66,7 +66,7 @@
 									<td > <?php if($value->sUpdate==''){echo 'Chưa sửa bài';}else{echo $value->sUpdate;}  ?></td>
 									<td>
 										<div class="hidden-sm hidden-xs action-buttons">
-											<a class="green" onclick="return confirmedit();" href="<?php echo admin_url('post/edit/'.$value->id); ?>">
+											<a class="green" href="<?php echo admin_url('post/edit/'.$value->id); ?>">
 												<i class="ace-icon fa fa-pencil bigger-130"></i>
 											</a>
 
@@ -135,9 +135,6 @@
 <SCRIPT LANGUAGE="JavaScript">
       function confirmAction() {
         return confirm("Bạn có chắc muốn xóa không?")
-      }
-      function confirmedit(){
-      	 return confirm("Bạn có chắc muốn sửa không?")
       }
  
 </SCRIPT>

@@ -5,7 +5,7 @@
 			Quản trị viên
 			<small>
 				<i class="ace-icon fa fa-angle-double-right"></i>
-				 Add Hình thức công việc
+				Hình thức công việc
 
 			</small>
 			
@@ -62,8 +62,8 @@
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="table-header">
-							Danh sách
-						</div>
+							Danh sách hình thức công việc
+                        </div>
 
 						<!-- div.table-responsive -->
 

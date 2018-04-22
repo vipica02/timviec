@@ -5,7 +5,7 @@
 			Quản trị viên
 			<small>
 				<i class="ace-icon fa fa-angle-double-right"></i>
-				 Danh sách
+				 Slider
 
 			</small>
 			

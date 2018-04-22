@@ -5,7 +5,7 @@
 			Quản trị viên
 			<small>
 				<i class="ace-icon fa fa-angle-double-right"></i>
-				 Danh sách
+				 Lương
 
 			</small>
 			
@@ -62,7 +62,7 @@
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="table-header">
-							Add lương
+							Danh sách mức lương
 						</div>
 
 						<!-- div.table-responsive -->

@@ -5,7 +5,7 @@
 			Quản trị viên
 			<small>
 				<i class="ace-icon fa fa-angle-double-right"></i>
-				 Add cấp bậc
+				Cấp bậc mong muốn
 
 			</small>
 			
@@ -62,7 +62,7 @@
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="table-header">
-							Danh sách
+							Danh sách cấp bậc mong muốn
 						</div>
 
 						<!-- div.table-responsive -->
