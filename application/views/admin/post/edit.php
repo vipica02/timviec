@@ -86,7 +86,7 @@
 								<div class="row">
 									<div class="col-md-12 col-xs-12">
 										<div class="col-md-6 col-xs-6">
-											<img src="http://localhost/doan_cntt/uploads/post/<?php echo $info->sPicture ?>" alt="" style="width: 100px; height: 100px;">
+											<img src="http://localhost/timviec/uploads/post/<?php echo $info->sPicture ?>" alt="" style="width: 100px; height: 100px;">
 										</div>
 										<div class="col-md-4 col-xs-4 pull-right">
 										<input type="submit" value="Lưu" name="sua" class="btn btn-app btn-success pull-right">

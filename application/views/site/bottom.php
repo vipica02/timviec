@@ -239,15 +239,15 @@
             <div class="row">
                 <div class="col-sm-6 wow fadeInDown">
                     <div class="skill">
-                        <h2>Trình độ</h2>
+                        <h2>Quy mô</h2>
                         <?php if(!empty($list_scale)){
                             foreach ($list_scale as  $value) {?>
                           
                               <div class="panel panel-default">
                                 <div class="panel-heading">
                                   <h3 class="panel-title">
-                                    <a class="accordion-toggle" href="<?php echo base_url('jop/trinh_do/'.$value->id); ?>">
-                                      <?php //echo $value->sScale_Name; ?>
+                                    <a class="accordion-toggle" href="<?php echo base_url('jop/quy_mo/'.$value->id); ?>">
+                                      <?php echo $value->sScale_Name; ?>
                                       <i class="fa fa-angle-right pull-right"></i>
                                     </a>
                                   </h3>

@@ -22,8 +22,8 @@ class Home extends MY_Controller
 		// $total_empoyer = $this->employer_model->get_total($input);
 		// $this->data['total_empoyer']=$total_empoyer;
 		//lấy tổng số comment
-		$total_comment = $this->comment_model->get_total();
-		$this->data['total_comment'] = $total_comment;
+//		$total_comment = $this->comment_model->get_total();
+//		$this->data['total_comment'] = $total_comment;
 		///lấy tông số lượt xem bai viết
 		$total_view = $this->post_model->get_sum('iViewHits');
 		$this->data['total_view'] = $total_view;

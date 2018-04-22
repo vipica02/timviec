@@ -132,7 +132,7 @@ class Jop extends MY_Controller
 		$id = $this->uri->rsegment('3');
 		///tiêu đề danh mục
 		$info = $this->scale_model->get_info($id);
-		$this->data['info']=$info;
+        $this->data['info']=$info;
 		if(!$info){
 			$this->session->set_flashdata('message','không tồn tại thông tin này');
 			redirect(base_url('jop/error'));
@@ -171,7 +171,7 @@ class Jop extends MY_Controller
 		 }
 		 
 		$this->data['info_company'] = $info_company;
-		$this->data['template'] ='site/career/diploma_view';
+		$this->data['template'] ='site/career/scale_view';
 		$this->load->view('site/main',$this->data);
 	}
 	

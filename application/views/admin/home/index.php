@@ -31,15 +31,15 @@
 					<div class="space-6"></div>
 
 					<div class="col-sm-12 infobox-container">
-						<div class="infobox infobox-green">
-							<div class="infobox-icon">
-								<i class="ace-icon fa fa-comments" title="Comment"></i>
-							</div>
-							<div class="infobox-data">
-								<span class="infobox-data-number"><?php echo $total_comment; ?></span>
-							</div>
-							<div class="stat stat-success">Comment</div>
-						</div>
+<!--						<div class="infobox infobox-green">-->
+<!--							<div class="infobox-icon">-->
+<!--								<i class="ace-icon fa fa-comments" title="Comment"></i>-->
+<!--							</div>-->
+<!--							<div class="infobox-data">-->
+<!--								<span class="infobox-data-number">--><?php //echo $total_comment; ?><!--</span>-->
+<!--							</div>-->
+<!--							<div class="stat stat-success">Comment</div>-->
+<!--						</div>-->
 						<div class="infobox infobox-orange2">
 							<div class="infobox-chart">
 								<span class="sparkline" data-values="196,128,202,177,154,94,100,170,224" title="Lượt xem"></span>

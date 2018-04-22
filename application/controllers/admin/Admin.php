@@ -53,7 +53,7 @@ class Admin extends MY_Controller
 			$this->form_validation->set_rules('name','Họ và tên','required|min_length[8]');
 			$this->form_validation->set_rules('date_birth','Ngày sinh','required');
 			$this->form_validation->set_rules('date_do','Ngày vào làm','required');
-			$this->form_validation->set_rules('username','Tên tài khoản','required|min_length[6]|callback_check_usename');
+            $this->form_validation->set_rules('username','Tên tài khoản','required|min_length[6]|callback_check_usename');
 			$this->form_validation->set_rules('password','Mật khẩu','required');
 			$this->form_validation->set_rules('re_password','Nhập lại mật khẩu','matches[password]');
 			$this->form_validation->set_rules('email','Email','required|valid_email|callback_check_email');
