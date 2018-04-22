@@ -75,7 +75,7 @@
 									<td><?php if($value->iDisplay==1){echo 'Hiển thị tin';}else{echo 'Ẩn tin';} ?></td>
 									<td>
 										<div class="hidden-sm hidden-xs action-buttons">
-											<a class="green" onclick="return confirmedit();" href="<?php echo nguoitimviec_url('user_job/edit_upload/'. $value->id); ?>">
+											<a class="green"  href="<?php echo nguoitimviec_url('user_job/edit_upload/'. $value->id); ?>">
 												<i class="ace-icon fa fa-pencil bigger-130"></i>
 											</a>
 											<a class="red" href="<?php echo nguoitimviec_url('user_job/delete_upload/'. $value->id); ?> " onclick="return confirmAction();">
@@ -143,9 +143,6 @@
 <SCRIPT LANGUAGE="JavaScript">
       function confirmAction() {
         return confirm("Bạn có chắc muốn xóa không?")
-      }
-      function confirmedit(){
-      	 return confirm("Bạn có chắc muốn sửa không?")
       }
  
 </SCRIPT>

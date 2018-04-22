@@ -132,13 +132,6 @@
 	</div><!-- /.row -->
 </div><!-- /.page-content -->
 
-<SCRIPT LANGUAGE="JavaScript">
-     
-      function confirmedit(){
-      	 return confirm("Bạn có muốn nộp không?")
-      }
- 
-</SCRIPT>
 <script src="<?php echo public_url() ?>/backend/assets/js/jquery-2.1.4.min.js"></script>
 <script src="<?php echo public_url() ?>/backend/assets/js/jquery.dataTables.min.js"></script>
 <script src="<?php echo public_url() ?>/backend/assets/js/jquery.dataTables.bootstrap.min.js"></script>

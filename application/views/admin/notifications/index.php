@@ -1,14 +1,13 @@
 <!-- head -->
 
 <div class="page-content">
-	<?php $this->load->view('admin/admin/caidat.php'); ?>
 
 	<div class="page-header">
 		<h1>
 			Quản trị viên
 			<small>
 				<i class="ace-icon fa fa-angle-double-right"></i>
-				 Danh sách
+				 Quản lý thông báo
 
 			</small>
 			
@@ -21,11 +20,6 @@
 			<!-- PAGE CONTENT BEGINS -->
 			<div class="row">
 				<div class="col-xs-12">
-				
-
-					<div class="clearfix">
-						<div class="pull-right tableTools-container"></div>
-					</div>
 					<div class="table-header">
 						Danh sách nhà tuyển dụng
 					</div>

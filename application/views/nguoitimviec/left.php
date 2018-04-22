@@ -114,14 +114,6 @@
 
 			<ul class="submenu">
 				<li class="">
-					<a href="<?php echo nguoitimviec_url('user_job/add'); ?>">
-						<i class="menu-icon fa fa-caret-right"></i>
-						Tạo hồ sơ trực tuyến
-					</a>
-
-					<b class="arrow"></b>
-				</li>
-				<li class="">
 					<a href="<?php echo nguoitimviec_url('user_job/add_upload'); ?>">
 						<i class="menu-icon fa fa-caret-right"></i>
 						Upload hồ sơ 
